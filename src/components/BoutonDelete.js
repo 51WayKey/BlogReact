@@ -5,6 +5,7 @@ const BoutonDelete = ({ idPostBlog, onDelete }) => {
 
   const handleDelete = () => {
     onDelete(idPostBlog);
+    fetch("https://jsonplaceholder.typicode.com/posts")
   };
 
 
