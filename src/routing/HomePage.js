@@ -4,6 +4,7 @@ import BoutonEdit from '../components/BoutonEdit';
 import BoutonDelete from '../components/BoutonDelete';
 
 function HomePage() {
+  
 
   return (
     <div>BlogPost
@@ -11,29 +12,6 @@ function HomePage() {
     </div>
     );
   };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   //   useEffect(() => {
 //     // @TODO - fetching post blogs from the server...

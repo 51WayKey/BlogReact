@@ -6,9 +6,10 @@ const EditBlogPost = () => {
   const [postInfo, setpostInfo] = useState(null);
 
   useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`).then(response => response.json()).then(data => setpostInfo(data))
-      .catch(error => console.error("détails de l'erreur", error));
-  }, [postId]);
+    fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`).then(response => response.json()).then(data =>{console.log(data);setpostInfo(data)})
+      .catch(error => console.error("détails de l'erreur", error));}, [postId]);
+
+    
 
   return (
     <div>
