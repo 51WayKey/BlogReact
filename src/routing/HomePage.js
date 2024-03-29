@@ -11,12 +11,6 @@ function HomePage() {
     </div>
     );
   };
-    // <div>
-    //   <p>Mettres Tous les Posts ici</p>
-    //   {/* <a href='/users'>My users</a> */}
-    //   <Link to='blogpost'>My users</Link>
-    // </div>
-
 
 
 
